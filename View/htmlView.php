@@ -96,7 +96,7 @@
                 <h3><?= filter_var($article['titre'],FILTER_SANITIZE_STRING); ?></h3> <!-- //Protection contre injection - Never Trust the User -->
                 <p><?=  filter_var($article['contenu'],FILTER_SANITIZE_STRING); ?></p> <!-- //Protection contre injection - Never Trust the User -->
                 <!-- Bouton supprimer -->
-                <form method="POST" action="../Controller/deleteBlogController.php" class="delete-form">
+                <form method="POST" action="" class="delete-form">
                     <input type="hidden" name="delete_id" value="<?= $article['id']; ?>">
                     <button type="submit" class="delete-button">Supprimer</button>
                 </form>
