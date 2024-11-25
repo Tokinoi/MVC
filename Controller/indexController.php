@@ -1,5 +1,5 @@
 <?php
-//php -S localhost:8000 retrieveBlogController.php
+//php -S localhost:8000 indexController.php
 
 // Paramètres de connexion à la base de données
 require_once '../Model/blogModel.php';
